@@ -13,6 +13,8 @@
 		B2F03D682860913700B3AE71 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2F03D672860913700B3AE71 /* Preview Assets.xcassets */; };
 		B2F03D7428609B9A00B3AE71 /* InfoPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F03D7328609B9A00B3AE71 /* InfoPanelView.swift */; };
 		B2F03D762860A20000B3AE71 /* ControlImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F03D752860A20000B3AE71 /* ControlImageView.swift */; };
+		B2F03D7A2860ABBF00B3AE71 /* PageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F03D792860ABBF00B3AE71 /* PageModel.swift */; };
+		B2F03D7D2860AC2200B3AE71 /* PageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F03D7C2860AC2200B3AE71 /* PageData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		B2F03D672860913700B3AE71 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B2F03D7328609B9A00B3AE71 /* InfoPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPanelView.swift; sourceTree = "<group>"; };
 		B2F03D752860A20000B3AE71 /* ControlImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlImageView.swift; sourceTree = "<group>"; };
+		B2F03D792860ABBF00B3AE71 /* PageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageModel.swift; sourceTree = "<group>"; };
+		B2F03D7C2860AC2200B3AE71 /* PageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,7 @@
 		B2F03D71286093D100B3AE71 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				B2F03D792860ABBF00B3AE71 /* PageModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -101,6 +106,7 @@
 		B2F03D72286093D700B3AE71 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				B2F03D7C2860AC2200B3AE71 /* PageData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -176,8 +182,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2F03D762860A20000B3AE71 /* ControlImageView.swift in Sources */,
+				B2F03D7A2860ABBF00B3AE71 /* PageModel.swift in Sources */,
 				B2F03D632860913600B3AE71 /* ContentView.swift in Sources */,
 				B2F03D612860913600B3AE71 /* zoomApp.swift in Sources */,
+				B2F03D7D2860AC2200B3AE71 /* PageData.swift in Sources */,
 				B2F03D7428609B9A00B3AE71 /* InfoPanelView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
