@@ -48,6 +48,7 @@ struct ContentView: View {
           .padding()
           .shadow(color: .black.opacity(0.2), radius: 12, x: 2, y: 2)
           .opacity(getOpacity)
+          .animation(.linear(duration: 1), value: isAnimating)
           .offset(x: imageOffset.width, y: imageOffset.height)
           .scaleEffect(imageScale)
         // MARK: - 1. TAP GESTURE
@@ -98,9 +99,7 @@ struct ContentView: View {
       .navigationTitle("Pinch & Zoom")
       .navigationBarTitleDisplayMode(.inline)
       .onAppear {
-        withAnimation(.linear(duration: 1)) {
-          isAnimating = true
-        }
+        isAnimating = true
       }
       // MARK: - INFO PANEL
         .overlay(
@@ -168,6 +167,7 @@ struct ContentView: View {
               .scaledToFit()
               .frame(height: 40)
               .padding(8)
+              .foregroundStyle(.secondary)
               .onTapGesture {
                 withAnimation(.easeOut) {
                   isDrawerOpened.toggle()
