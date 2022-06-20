@@ -130,7 +130,7 @@ struct ContentView: View {
               
               // RESET
               Button {
-                //
+                resetImageState()
               } label: {
                 ControlImageView(icon: "arrow.up.left.and.down.right.magnifyingglass")
               }
@@ -168,7 +168,6 @@ struct ContentView: View {
               .scaledToFit()
               .frame(height: 40)
               .padding(8)
-              
               .onTapGesture {
                 withAnimation(.easeOut) {
                   isDrawerOpened.toggle()
