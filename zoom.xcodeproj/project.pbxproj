@@ -51,8 +51,11 @@
 		B2F03D5F2860913600B3AE71 /* zoom */ = {
 			isa = PBXGroup;
 			children = (
+				B2F03D72286093D700B3AE71 /* Data */,
+				B2F03D71286093D100B3AE71 /* Model */,
 				B2F03D602860913600B3AE71 /* zoomApp.swift */,
-				B2F03D622860913600B3AE71 /* ContentView.swift */,
+				B2F03D70286093AD00B3AE71 /* Components */,
+				B2F03D6F286093A100B3AE71 /* Views */,
 				B2F03D642860913700B3AE71 /* Assets.xcassets */,
 				B2F03D662860913700B3AE71 /* Preview Content */,
 			);
@@ -65,6 +68,35 @@
 				B2F03D672860913700B3AE71 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B2F03D6F286093A100B3AE71 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B2F03D622860913600B3AE71 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B2F03D70286093AD00B3AE71 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		B2F03D71286093D100B3AE71 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B2F03D72286093D700B3AE71 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
